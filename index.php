@@ -32,27 +32,37 @@ $faqs = [
     "Q" => "Perché il mio account è associato a un paese?",
     "A" => "Il tuo account è associato a un paese (o territorio) nei Termini di servizio per poter stabilire due cose:<br><br>
 
-      1.  La società consociata Google che offre i servizi, tratta le tue informazioni ed è responsabile del rispetto delle leggi sulla privacy vigenti. Generalmente Google offre i propri servizi per i consumatori tramite una delle due società seguenti:<br><br>
+      <ol>
 
-            a.  Google Ireland Limited, se gli utenti sono residenti nello Spazio economico europeo (paesi dell'Unione europea, oltre a Islanda, Liechtenstein e Norvegia) o in Svizzera.<br><br>
+        <li>
+        La società consociata Google che offre i servizi, tratta le tue informazioni ed è responsabile del rispetto delle leggi sulla privacy vigenti. Generalmente Google offre i propri servizi per i consumatori tramite una delle due società seguenti:<br><br>
 
-            b.  Google LLC, con sede negli Stati Uniti, per il resto del mondo.<br><br>
+          <ol class='alpha'>
+            <li> Google Ireland Limited, se gli utenti sono residenti nello Spazio economico europeo (paesi dell'Unione europea, oltre a Islanda, Liechtenstein e Norvegia) o in Svizzera.
+            </li><br>
 
-      2.  La versione dei termini che regola il nostro rapporto, che può variare in base alle leggi locali.
+            <li> Google LLC, con sede negli Stati Uniti, per il resto del mondo.</li><br>
 
-    <br><br>
+          </ol>
+        </li>
 
-    Tieni presente che i servizi Google sono fondamentalmente gli stessi a prescindere dalla società consociata che li offre o dal paese a cui è associato il tuo account.<br><br>
+        <li>La versione dei termini che regola il nostro rapporto, che può variare in base alle leggi locali.
+        </li>
+
+      </ol>
+    <br>
+
+    <p class='answer'>Tieni presente che i servizi Google sono fondamentalmente gli stessi a prescindere dalla società consociata che li offre o dal paese a cui è associato il tuo account.</p><br>
 
 
 
-    <h3>Stabilire il paese associato al tuo account</h3> <br><br>
+    <h4>Stabilire il paese associato al tuo account</h4> <br>
 
-    Quando crei un nuovo Account Google, lo associamo a un paese in base a dove è stato creato. Per quanto riguarda gli account creati almeno un anno fa, usiamo il paese da cui accedi solitamente ai servizi Google, in genere i servizi in cui hai trascorso più tempo nell'ultimo anno.<br><br>
+    <p class='answer'>Quando crei un nuovo Account Google, lo associamo a un paese in base a dove è stato creato. Per quanto riguarda gli account creati almeno un anno fa, usiamo il paese da cui accedi solitamente ai servizi Google, in genere i servizi in cui hai trascorso più tempo nell'ultimo anno.<br><br>
 
     I viaggi frequenti solitamente non influiscono sul paese associato al tuo account. Se ti trasferisci in un altro paese, potrebbe occorrere circa un anno per aggiornare l'associazione del paese.<br><br>
 
-    Se il paese associato al tuo account non corrisponde al tuo paese di residenza, il motivo potrebbe essere la differenza tra il paese in cui lavori e il paese in cui risiedi, l'installazione di una rete privata virtuale (VPN) per mascherare il tuo indirizzo IP oppure la residenza vicino a un confine territoriale. <a>Contattaci</a> se ritieni che il paese associato al tuo account sia sbagliato."
+    Se il paese associato al tuo account non corrisponde al tuo paese di residenza, il motivo potrebbe essere la differenza tra il paese in cui lavori e il paese in cui risiedi, l'installazione di una rete privata virtuale (VPN) per mascherare il tuo indirizzo IP oppure la residenza vicino a un confine territoriale. <a>Contattaci</a> se ritieni che il paese associato al tuo account sia sbagliato.</p>"
   ],
 
   // Question & Asnswer n.4
@@ -71,7 +81,7 @@ $faqs = [
 
 $headerLinks = ["Introduzione", "Norme sulla privacy", "Termini di servizio", "Tecnologie"];
 $footerLinks = ["Google", "Tutto su Google", "Privacy", "Termini"];
-$languages = ["Italiano", "English (United Kingdom)"];
+$languages = ["Italiano", "Afrikaans", "Bahasa Indonesia", "Bahasa Melayu", "Català", "Cestina", "Dansk", "Deutsch", "Eesti", "English", "English (United Kingdom)", "Espanol", "Espanol (Latinoamérica)", "Euskara", "Filipino", "Francais", "Francais (Canada)", "Galego", "Hrvatski", "Isizulu", "Islenska", "Kiswahili", "Latviesu", "Lietuviu", "Magyar", "Nederlands", "Norsk", "Polski", "Portugues (Brasil)", "Portugues (Portugal)", "Romana", "Slovencina", "Slovenscina", "Srpski", "Suomi", "Svenska", "Tieng Viet", "Turkce"];
 
 ?>
 

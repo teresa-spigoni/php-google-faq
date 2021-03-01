@@ -96,13 +96,29 @@ main {
   margin-top: 200px;
 }
 main .main-container {
-  width: 1000px;
+  width: 980px;
   margin: 0 auto;
 }
 main .main-container .question {
   color: #3c4043;
   margin: 80px 0 30px 0;
   font-size: 22px;
+}
+main .main-container h4 {
+  color: #3c4043;
+}
+main .main-container ol {
+  margin-left: 10px;
+}
+main .main-container ol li {
+  font-size: 13px;
+  list-style-position: outside;
+  padding-left: 15px;
+  margin-left: 5px;
+}
+main .main-container .alpha {
+  list-style-type: lower-alpha;
+  margin-left: 20px;
 }
 main .main-container .answer {
   color: #212121;
@@ -121,7 +137,7 @@ footer {
   padding: 12px 0;
 }
 footer .footer-container {
-  width: 1000px;
+  width: 980px;
   margin: 0 auto;
 }
 footer .footer-container .left a {

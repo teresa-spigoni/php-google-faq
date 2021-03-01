@@ -5,7 +5,7 @@
 }
 
 @mixin container {
-  width: 1000px;
+  width: 980px;
   margin: 0 auto;
 }
 
@@ -129,6 +129,26 @@ margin-top: 200px;
       color: #3c4043;
       margin: 80px 0 30px 0;
       font-size: 22px;
+    }
+
+    h4{
+      color: #3c4043;
+    }
+
+    ol{
+      margin-left: 10px;
+    }
+
+    ol li{
+      font-size: 13px;
+      list-style-position: outside;
+      padding-left: 15px;
+      margin-left: 5px;
+    }
+
+    .alpha{
+      list-style-type: lower-alpha;
+      margin-left: 20px;
     }
 
     .answer{
