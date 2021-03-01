@@ -46,7 +46,7 @@ $faqs = [
 
 
 
-    Stabilire il paese associato al tuo account<br><br>
+    <h3>Stabilire il paese associato al tuo account</h3> <br><br>
 
     Quando crei un nuovo Account Google, lo associamo a un paese in base a dove è stato creato. Per quanto riguarda gli account creati almeno un anno fa, usiamo il paese da cui accedi solitamente ai servizi Google, in genere i servizi in cui hai trascorso più tempo nell'ultimo anno.<br><br>
 
