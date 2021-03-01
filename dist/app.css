@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+}
+
+#root {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  color: #5f6368;
+  background: #fff;
+  padding: 0 10px;
+  border-bottom: 1px solid #cbcbcb;
+}
+header .top .logo {
+  margin-top: 10px;
+  height: 55px;
+  vertical-align: -20px;
+}
+header .top span {
+  font-size: 20px;
+  margin-left: -14px;
+}
+header .top span a {
+  color: inherit;
+  font-weight: bold;
+}
+header .top .menu, header .top .avatar {
+  display: inline-block;
+  cursor: pointer;
+}
+header .top .menu {
+  padding: 4px;
+  border-radius: 50%;
+  margin-top: 10px;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  font-size: 15px;
+}
+header .top .menu i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+header .top .avatar {
+  padding: 4px;
+  border-radius: 50%;
+  margin-top: 10px;
+  width: 45px;
+  height: 45px;
+}
+header .top .avatar img {
+  border-radius: 50%;
+}
+header .top .avatar:hover, header .top .menu:hover {
+  background: #f0f0f0;
+}
+header .bottom {
+  margin-left: 15px;
+}
+header .bottom .link {
+  padding-bottom: 5px;
+  display: inline-block;
+  margin-right: 40px;
+  font-weight: bold;
+}
+header .bottom .link a {
+  color: inherit;
+  font-size: 14px;
+}
+header .bottom .faq {
+  color: #3367d6;
+  border-bottom: 2px solid #3367d6;
+}
+
+main {
+  margin-top: 200px;
+}
+main .main-container {
+  width: 1000px;
+  margin: 0 auto;
+}
+main .main-container .question {
+  color: #3c4043;
+  margin: 80px 0 30px 0;
+  font-size: 22px;
+}
+main .main-container .answer {
+  color: #212121;
+  font-size: 13px;
+}
+main .main-container .answer a {
+  color: #3367d6;
+  cursor: pointer;
+  font-weight: bold;
+}
+main .main-container .answer h3 {
+  color: red;
+}
+main .main-container .answer .alpha {
+  list-style-type: lower-alpha;
+}
+
+footer {
+  background: #f5f5f5;
+  border-top: 2px solid #eeeeee;
+  margin-top: 50px;
+  padding: 12px 0;
+}
+footer .footer-container {
+  width: 1000px;
+  margin: 0 auto;
+}
+footer .footer-container .left a {
+  font-size: 11px;
+  color: #646464;
+  padding: 0 5px 0 0;
+}
+footer .footer-container .right i {
+  color: #2b9ef6;
+  vertical-align: middle;
+  font-size: 12px;
+}
